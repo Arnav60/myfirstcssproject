@@ -1,0 +1,140 @@
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+.container{
+    width:80%;
+    margin: auto;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+
+}
+.button:hover{
+    background-color: red;
+    color: #fff;
+}
+.clr{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: darkkhaki;
+}
+a:hover{
+    color: lawngreen;
+}
+a:active{
+    color:red;
+}
+.box-1{
+    background-color: black;
+    color: #f4f4f4;
+    border: 5px hotpink solid;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px;
+}
+.box-1 h1{
+        font-family: Tahoma;
+        font-size: 40px;
+        font-style: oblique;
+        text-decoration: underline;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        word-spacing: 1em;
+}
+.box-2{
+        border: 5px #e3f4 dotted;
+        padding: 20px;
+        margin: 20px; 
+}
+.categories{
+    border: 3px #bec solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0;
+    padding-left: 20px;
+    list-style-type: none;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: dotted 6px #333;
+    list-style-image: url('../images/check.png')
+}
+.my-form{
+    padding: 20px;
+}
+.my-form .form-group{
+        padding-bottom: 15px;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 50px;
+    position: relative;
+    background-image: url('../images/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+.fix-me{
+    position: fixed;
+    background-color: #000;
+    color: #ccc;
+    margin-top: 400px;
+}
+.my-list li:first-child{
+    background: red;
+}
+.my-list li:last-child{
+    background: blue;
+}
+.my-list li:nth-child(3){
+    background: yellow;
+}
